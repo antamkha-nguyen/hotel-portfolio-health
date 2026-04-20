@@ -37,6 +37,10 @@ hotel_portfolio_analysis/
 **Excel**
 - PivotTable validation of monthly cancellation rates by hotel type
 - Cross-check against Python outputs
+- Created a `Risk Flag` field with a nested `IF` formula to label segments:
+  - High Risk if cancellation rate > 40%
+  - Watch if cancellation rate between 20 percent and 40 percent
+  - OK if cancellation rate <= 20%
 
 **Tableau Dashboard: Hotel Portfolio Health Monitor**
 ([Dashboard Link](https://public.tableau.com/app/profile/an.tam.kha.nguyen.2002/viz/HotelPortfolioHealthMonitorCancellationRevenueAnalysis/HotelPortfolioHealthMonitor))
