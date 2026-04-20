@@ -57,3 +57,6 @@ hotel_portfolio_analysis/
 - Python (pandas)
 - Microsoft Excel
 - Tableau Public
+
+<img width="1233" height="829" alt="Dashboard Image" src="https://github.com/user-attachments/assets/5cef2390-2f1e-408d-8f86-a744b2a28a19" />
+
