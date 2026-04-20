@@ -23,7 +23,7 @@ hotel_portfolio_analysis/
 ## Dataset
 
 - Source: Hotel booking demand dataset from Kaggle ([Dataset Link](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand))
-- Records: ~119,000 hotel bookings
+- Records: ~119K hotel bookings
 - Hotels: City Hotel, Resort Hotel
 - Key fields: cancellation status, ADR, market segment, arrival month
 
