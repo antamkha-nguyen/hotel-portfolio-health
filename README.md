@@ -11,7 +11,7 @@ A brand health analytics project analyzing cancellation risk and revenue perform
 5. Which months and segments need the most brand health attention?
 
 ## Project Structure
-
+```
 hotel_portfolio_analysis/
 ├── portfolio_health_dashboard.twb   # Tableau dashboard
 ├── hotel_portfolio_analysis.ipynb   # Python analysis notebook
@@ -19,10 +19,10 @@ hotel_portfolio_analysis/
 ├── hotel_month_segment.xlsx         # Aggregated segment metrics
 └── data/
     └── hotel_bookings.xlsx          # Source data (119K+ bookings)
-
+```
 ## Dataset
 
-- Source: Hotel booking demand dataset from Kaggle [Dataset Link](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
+- Source: Hotel booking demand dataset from Kaggle ([Dataset Link](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand))
 - Records: ~119,000 hotel bookings
 - Hotels: City Hotel, Resort Hotel
 - Key fields: cancellation status, ADR, market segment, arrival month
@@ -39,7 +39,7 @@ hotel_portfolio_analysis/
 - Cross-check against Python outputs
 
 **Tableau Dashboard: Hotel Portfolio Health Monitor**
-[Dashboard Link](https://public.tableau.com/app/profile/an.tam.kha.nguyen.2002/viz/HotelPortfolioHealthMonitorCancellationRevenueAnalysis/HotelPortfolioHealthMonitor)
+([Dashboard Link](https://public.tableau.com/app/profile/an.tam.kha.nguyen.2002/viz/HotelPortfolioHealthMonitorCancellationRevenueAnalysis/HotelPortfolioHealthMonitor))
 - Cancellation Trend: monthly cancellation rate vs 40% risk threshold
 - ADR Trend: average daily rate by hotel type across months
 - Cancellation Risk by Segment: market segments colored by risk level
